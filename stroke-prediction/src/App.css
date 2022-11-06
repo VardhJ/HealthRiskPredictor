@@ -94,6 +94,7 @@ input[type="checkbox"]:checked::before {
 /************** ABOUT *************/
 .aboutPage {
   background-color: #F7F7F7;
+  padding: 3rem 0;
 }
 
 .about-container {

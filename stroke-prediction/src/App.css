@@ -60,10 +60,11 @@ textarea {
 }
 
 .submit {
-  height: 2rem;
-  width: 5rem;
+  height: 3rem;
+  width: 6rem;
   font-weight: bolder;
   margin-left: 50%;
+  font-size: 1.2rem;
 }
 
 input[type="checkbox"] {

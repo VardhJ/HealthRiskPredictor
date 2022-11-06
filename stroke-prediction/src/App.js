@@ -121,28 +121,36 @@ function App() {
 
             <h1>E N T E R  &nbsp; D E T A I L S</h1>
             <h1>T O  &nbsp; F I N D &nbsp; C H A N C E S &nbsp; O F &nbsp; S T R O K E</h1>
+            <br></br>
+            <h3>NAME:</h3>
             <input type='text' name="Name" id="name" placeholder="Name"></input><br></br>
+            <h3>GENDER:</h3>
             <input type="text" id="gender" placeholder="Gender" list="genders" />
             <datalist id="genders">
               <option>Male</option>
               <option>Female</option>
             </datalist><br></br>
+            <h3>AGE:</h3>
             <input type='number' name="Age" id="age" placeholder="Age"></input><br></br>
+            <h3>HYPERTENSION:</h3>
             <input type='text' id="hypertension" placeholder="Hypertension (1 if true 0 if false)" list="hyper"></input><br></br>
             <datalist id="hyper">
               <option>0</option>
               <option>1</option>
             </datalist><br></br>
+            <h3>HEART DISEASE:</h3>
             <input type='text' id="heart" placeholder="Heart disease (1 if true 0 if false)" list="heartlist"></input><br></br>
             <datalist id="heartlist">
               <option>0</option>
               <option>1</option>
             </datalist><br></br>
+            <h3>MARITAL STATUS:</h3>
             <input type='text' id="marital" placeholder="Marital Status" list="maritallist"></input><br></br>
             <datalist id="maritallist">
               <option>Yes</option>
               <option>No</option>
             </datalist><br></br>
+            <h3>WORK STATUS:</h3>
             <input type='text' id="work" placeholder="Work status" list="worklist"></input><br></br>
             <datalist id="worklist">
               <option>Private</option>
@@ -151,13 +159,17 @@ function App() {
               <option>Children</option>
               <option>Never worked</option>
             </datalist><br></br>
+            <h3>RESIDENCE TYPE:</h3>
             <input type='text' id="residence" placeholder="Residence type" list="residencelist"></input><br></br>
             <datalist id="residencelist">
               <option>Urban</option>
               <option>Rural</option>
             </datalist><br></br>
+            <h3>GLUCOSE LEVEL:</h3>
             <input type='number' name="Glucose" id="glucose" placeholder="Glucose Level"></input><br></br>
+            <h3>BMI:</h3>
             <input type='number' name="BMI" id="bmi" placeholder="BMI"></input><br></br>
+            <h3>SMOKING STATUS:</h3>
             <input type='text' id="smoking" placeholder="Smoking Status" list="smokinglist"></input><br></br>
             <datalist id="smokinglist">
               <option>smokes</option>

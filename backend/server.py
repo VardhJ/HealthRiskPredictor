@@ -1,13 +1,11 @@
 # Import flask and datetime module for showing date and time
 from flask import Flask, render_template, request, redirect
 import json
-import datetime
 import jsonpickle
 
 #ML Imports:
 import pandas as pd
 import numpy as np
-
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
@@ -22,20 +20,16 @@ app = Flask(__name__)\
 
 
 
-
-
-
-# Route for seeing a data
+# Route for seeing data in index
 @app.route('/')
 def index():
-    response_body = {
-        "name": "Nagato",
-        "about" :"Hello! I'm a full stack developer that loves python and javascript"
+    response_body = {  
     }
     return response_body
     #return render_template('../stroke-prediction/src/index.js')
 
 
+# Our route for processing user info 
 @app.route('/ProcessUserinfo/<string:userinfo>', methods=['POST', 'GET'])
 def ProcessUserinfo(userinfo):
     userinfo = json.loads(userinfo)
@@ -123,7 +117,7 @@ def ProcessUserinfo(userinfo):
 
 
 
-# On our info
+    # On our info
     gender = {'Male': 1,'Female': 2,'Other': 3}
     userinfo[1] = gender[userinfo[1]]
 
@@ -144,10 +138,10 @@ def ProcessUserinfo(userinfo):
     x = [[1,67,0,1,1,1,1,228.69,36.6,3]]
     x = np.array(x)
 
+    #converting to 2d array
     userinfo = np.array(userinfo)
     
-
-    
+    #without name field
     cleanUserInfo=userinfo[1:]
     cleanUserInfo = cleanUserInfo.astype('float64')
     

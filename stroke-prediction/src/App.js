@@ -93,11 +93,11 @@ function App() {
         </section>
 
 
-        <section className="testimonial">
+        <section className="causes">
 
           <h1> M A J O R  &nbsp; C A U S E S </h1>
 
-          <section className="testimonial-container">
+          <section className="causes-container">
             <article>
               <img src={Bmi} />
               <h2>B M I</h2>
@@ -110,14 +110,14 @@ function App() {
             </article>
           </section>
 
-          <section className="testimonial-container">
+          <section className="causes-container">
             <article>
               <img src={Smoke}></img>
               <h2>S M O K I N G</h2>
               <p>Smoking is a major cause of cardiovascular disease (CVD) and causes one of every four deaths from CVD. Secondhand smoke increases the risk for stroke by 20−30%. Each year, secondhand smoke exposure causes more than 8,000 deaths from stroke.</p>
             </article>
             <article>
-              <img src={Glucose} alt="goldie-testimonial"></img>
+              <img src={Glucose} alt="glucose"></img>
               <h2>D I A B E T E S</h2>
               <p>Diabetes is a well-established risk factor for stroke. It can cause pathologic changes in blood vessels at various locations and can lead to stroke if cerebral vessels are directly affected. Additionally, mortality is higher and poststroke outcomes are poorer in patients with stroke with uncontrolled glucose levels. </p>
             </article>
@@ -128,10 +128,10 @@ function App() {
 
       <div className="form-box">
         <form >
-          <div className="field1">
+          <div className="form-container">
 
-            <h1>E N T E R  &nbsp; D E T A I L S</h1>
-            <h1>T O  &nbsp; F I N D &nbsp; C H A N C E S &nbsp; O F &nbsp; S T R O K E</h1>
+            <h1>ENTER  &nbsp; DETAILS</h1>
+            <h1>TO  &nbsp; FIND &nbsp; CHANCES &nbsp; OF &nbsp; STROKE</h1>
             <br></br>
             <h3>NAME:</h3>
             <input type='text' name="Name" id="name" placeholder="Name" required></input><br></br>

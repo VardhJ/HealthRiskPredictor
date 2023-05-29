@@ -8,7 +8,7 @@ import Glucose from "../../images/glucose.png"
 import Hypertension from "../..//images/Hypertension.png"
 import Age from "../../images/age.png"
 import Axios from 'axios'
-
+import NavBar from "../../components/navbar/navbar";
 
 function Stroke() {
 
@@ -77,6 +77,7 @@ function Stroke() {
 
     return (
         <div className="App">
+            <NavBar />
             <div className="aboutPage">
 
                 <section className="about-container">

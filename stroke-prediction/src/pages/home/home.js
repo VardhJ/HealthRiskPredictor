@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <div className="App">
             <NavBar />
-            <div className="content">
+            <div className="content" style={{ marginTop: '60px' }}>
                 <h1>Welcome to Your One-Stop Health Risk Predictor!</h1>
                 <p>
                     Our web application uses various healthcare-related user inputs such as gender, age, hypertension, smoking status, and more to accurately predict your chances of developing conditions such as stroke, heart failure, hepatitis-C, and cirrhosis.
